@@ -62,7 +62,7 @@
                 //alert("Invalid Username: " + $("#username").val());
                 $.ajax({
                     type: "get",
-                    url: "http://cst336-php-wesmixon.c9users.io/cst336-lab8/api.php",
+                    url: "api.php",
                     dataType: "json",
                     data: {
                         'username': $('#username').val(),
