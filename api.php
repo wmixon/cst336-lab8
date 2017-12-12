@@ -3,15 +3,11 @@
 
 
 function getDatabaseConnection() {
-    $host = "us-cdbr-iron-east-05.cleardb.net";
-    $username = "bb108e997bcdab";
-    $password = "7b071f8b";
-    $dbname = "heroku_3d24ca78bc82e88"; 
     
     $host = "us-cdbr-iron-east-05.cleardb.net";
-    $username = "bdb5384f6f52f0";
-    $password = "caeb83fc";
-    $dbname = "heroku_e85b7747a279cb7";
+    $username = "be38fd891d40b6";
+    $password = "40d33621";
+    $dbname = "heroku_e2089215ec11dea";
     
     // Create connection
     $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
